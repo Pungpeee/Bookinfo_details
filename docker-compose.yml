@@ -1,7 +1,7 @@
 services:
   ratings:
     build: .
-    image: ghcr.io/pungpeee/bookinfo-ratings:dev
+    image: ghcr.io/pungpeee/bookinfo-details:dev
     ports:
       - "9080:9080"
     environment:
